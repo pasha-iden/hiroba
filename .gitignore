@@ -57,17 +57,6 @@ desktop.ini
 # Documentation
 AGENTS.md
 *_issue.md
-
-# Database
-dev/migrations
-dev/postgres_data
-dev/redis_data
-dev/docker-compose.celery.yml
-dev/docker-compose.minio.yml
-dev/docker-compose.postgres.yml
-dev/docker-compose.redis.yml
-dev/docker-compose.embedding.yml
-
-documents.py
+comments.txt
 
 cloc.exe
