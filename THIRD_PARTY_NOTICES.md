@@ -5,12 +5,12 @@ runtime dependencies are used by the client:
 
 | Component | License |
 | --- | --- |
-| httpx | BSD 3-Clause |
-| Textual | MIT |
-| cryptography | Apache-2.0 OR BSD-3-Clause |
-| keyring | MIT |
-| websockets | BSD 3-Clause |
-| PyInstaller bootloader | GPL-2.0-or-later with the PyInstaller bootloader exception |
+| httpx 0.28.1 | BSD 3-Clause |
+| Textual 1.0.0 | MIT |
+| cryptography 50.0.2 | Apache-2.0 OR BSD-3-Clause |
+| keyring 25.7.0 | MIT |
+| websockets 15.0.1 | BSD 3-Clause |
+| PyInstaller 6.16.0 bootloader | GPL-2.0-or-later with the PyInstaller bootloader exception |
 | Python runtime | Python Software Foundation License 2.0 |
 
 Each release must also include the applicable license texts and notices for
