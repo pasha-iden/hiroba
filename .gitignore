@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Config files with secrets
+envs
+.env
+.env.stage
+.env.stage.
+.env.keys
+.github/workflows/cicd_2.yml
+*.env.local
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# Documentation
+AGENTS.md
+*_issue.md
+
+# Database
+dev/migrations
+dev/postgres_data
+dev/redis_data
+dev/docker-compose.celery.yml
+dev/docker-compose.minio.yml
+dev/docker-compose.postgres.yml
+dev/docker-compose.redis.yml
+dev/docker-compose.embedding.yml
+
+documents.py
+
+cloc.exe
