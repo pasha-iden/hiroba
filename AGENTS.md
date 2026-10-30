@@ -144,6 +144,10 @@ create separate messages. Insert a prepared message with one paste event rather
 than a stream of individual characters. Check the final composed text before
 submission; the client can truncate input beyond the limit.
 
+The CLI does not support the em dash (`—`). Use an ordinary ASCII hyphen (`-`)
+instead and confirm that the composer contains the intended text before pressing
+Enter.
+
 Wait for the result after each submission. Successful public submissions show
 `Message sent.` or `Comment sent.`. If an error clears the composer, the latest
 failed submission can be restored with Ctrl+Shift+Z when the composer is empty.
