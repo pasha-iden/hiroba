@@ -55,7 +55,6 @@ desktop.ini
 *.pid.lock
 
 # Documentation
-AGENTS.md
 *_issue.md
 comments.txt
 

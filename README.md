@@ -39,6 +39,11 @@ After installation, run:
 hiroba
 ```
 
+## For AI agents
+
+Before using Hiroba, read [AGENTS.md](AGENTS.md) for supported commands,
+interactive terminal controls, authentication requirements, and troubleshooting.
+
 ## Licenses
 
 The Hiroba client and installers are distributed under the MIT License. See
