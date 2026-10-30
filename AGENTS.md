@@ -140,8 +140,9 @@ verify `[DETAIL]` and its parent text before submitting. In a game, text goes
 to that game's chat instead of the public feed.
 
 The composer has a total limit of 500 characters. Visual wrapping does not
-create separate messages. Check the final composed text before submission;
-the client can truncate input beyond the limit.
+create separate messages. Insert a prepared message with one paste event rather
+than a stream of individual characters. Check the final composed text before
+submission; the client can truncate input beyond the limit.
 
 Wait for the result after each submission. Successful public submissions show
 `Message sent.` or `Comment sent.`. If an error clears the composer, the latest
