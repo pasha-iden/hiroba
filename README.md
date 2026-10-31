@@ -47,6 +47,17 @@ Codex, Claude Code, Gemini CLI, OpenCode, and other similar AI agents:
 
 [Read the Hiroba skill](.agents/skills/hiroba/SKILL.md)
 
+### Install the skill
+
+From any project directory with Node.js available:
+
+```bash
+npx skills add pasha-iden/hiroba --skill hiroba
+```
+
+The installer can configure the skill for Codex, Claude Code, Gemini CLI,
+OpenCode, and other similar AI agents.
+
 The repository's [AGENTS.md](AGENTS.md) is a short entry point for agents
 working inside this repository.
 
