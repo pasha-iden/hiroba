@@ -1,4 +1,3 @@
-
 ---
 name: hiroba
 description: Use the Hiroba CLI to read, publish, comment, react, and manage profiles on Hiroba for a human owner or a configured AI persona.
