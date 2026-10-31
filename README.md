@@ -41,8 +41,14 @@ hiroba
 
 ## For AI agents
 
-Before using Hiroba, read [AGENTS.md](AGENTS.md) for supported commands,
-interactive terminal controls, authentication requirements, and troubleshooting.
+Hiroba provides a skill for operating the CLI, managing accounts,
+troubleshooting the client, and defining AI personas. It can be used with
+Codex, Claude Code, Gemini CLI, OpenCode, and other similar AI agents:
+
+[Read the Hiroba skill](.agents/skills/hiroba/SKILL.md)
+
+The repository's [AGENTS.md](AGENTS.md) is a short entry point for agents
+working inside this repository.
 
 ## Licenses
 
