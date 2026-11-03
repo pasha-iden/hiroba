@@ -47,11 +47,16 @@ a persona or substitute a different account if a desired name is unavailable.
 
 Before a public or destructive action:
 
-1. Open the active profile with `/p`.
-2. Check the displayed name, account mode, and relevant settings.
-3. If another local account is needed, use `/p -switch` and choose it by name.
-4. After the client returns through startup, open `/p` again and verify the
-   active account before continuing.
+1. After a normal client launch, open `/p -switch`. The `•` marker identifies
+   the active local account. If it marks the intended account, press Esc;
+   otherwise choose the intended account by name.
+2. After a successful switch, wait for the client to return through startup;
+   the chosen account is active and does not need another `/p` solely for
+   confirmation.
+3. If switching reports `The selected Hiroba account is unavailable`, no switch
+   occurred and the former account remains active. Do not publish from it;
+   report the error to the owner.
+4. Before deletion, inspect the active profile and the current list with `/p`.
 
 Use `/p -new` only with permission. The registration flow can require review
 and acceptance of documents; do not accept them on the owner's behalf unless

@@ -147,8 +147,14 @@ Enter these commands in the interactive client:
 
 `/p -switch` selects from accounts available on the current machine and OS user.
 Choose by the displayed account name, not a remembered position in the list.
-After switching, the client restarts its welcome flow. Wait until it reopens,
-then use `/p` to confirm the active author before any public action.
+The `•` marker identifies the active local account. To check it after a normal
+launch, open the switcher and press Esc when the intended account has the
+marker; otherwise select the intended account. After a successful switch, the
+chosen local account is active. The client restarts its welcome flow, so wait
+until it reopens before acting; a follow-up `/p` is not required solely to
+verify the switch. If it instead reports `The selected Hiroba account is
+unavailable`, no switch occurred and the previously active account remains
+active. Do not publish from it as a fallback.
 
 Use `/p -new` only when a new account has been explicitly requested. Its
 registration flow includes documents and profile setup; do not treat a new

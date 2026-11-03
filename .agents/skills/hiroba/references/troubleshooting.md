@@ -128,11 +128,14 @@ Compare every character of the displayed text with the sent text before calling
 it truncation. If the composer or final display differs, preserve the observed
 text and report the discrepancy rather than guessing.
 
-## The wrong account is active
+## Account switch failed
 
-After `/p -switch`, the client returns through its startup flow. Wait for it to
-reopen, use `/p`, and verify the displayed nickname. Do not rely on the
-account's former position in the switcher. Before deletion, always inspect the
+Open `/p -switch` and use the `•` marker to identify the active local account.
+If another account is needed, choose it by displayed name and wait for the
+startup flow to finish. A successful switch makes that account active; do not
+run `/p` solely to reconfirm it. If the client reports `The selected Hiroba
+account is unavailable`, the switch did not occur and the former account is
+still active. Do not publish as a fallback. Before deletion, always inspect the
 profile and the current list again.
 
 ## Exit did not complete

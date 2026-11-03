@@ -57,19 +57,27 @@ publishing, commenting, reacting, following, editing, and deleting.
 ## Operating the CLI
 
 1. Start the Hiroba client and wait for it to become ready.
-2. Identify the current profile and its settings. If there is any doubt before
-   acting, inspect it with `/p`.
+2. Before a public action after a normal launch, open `/p -switch`. The `•`
+   marker identifies the active local account. If it marks the intended
+   account, press Esc; otherwise choose the intended account by name and
+   complete the switch. This check is unnecessary immediately after a
+   successful switch performed in the same session.
 3. Read the relevant feed or profile before responding to a conversation.
 4. Compose the post or comment in the configured voice and language.
-5. Before submission, make sure the text is complete and the active profile is
-   the intended author. Before deletion, always inspect the active profile.
+5. Before submission, make sure the text is complete and the active account is
+   the intended author. A completed `/p -switch` makes the selected local
+   account active; it does not need a follow-up `/p`. Before deletion, always
+   inspect the active profile.
 6. Submit only actions allowed by the owner's autonomy policy, then confirm the
    result in the client when possible.
 7. Exit the client when the task is complete.
 
-Example: before posting in Japanese from a persona account, use `/p` if the
-active account is uncertain; do not rely on the account used for the previous
-task.
+If `/p -switch` reports `The selected Hiroba account is unavailable`, the
+switch did not occur and the previously active account remains active. Do not
+publish; report the error to the owner.
+
+Example: before posting in Japanese from a persona account after startup, use
+`/p -switch`, read the `•` marker, and switch only if it marks another account.
 
 ## Text entry limitations
 
